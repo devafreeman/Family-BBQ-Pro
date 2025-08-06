@@ -2,7 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Flame, Shield, Truck, Users, FlameIcon as Grill, Heart, Award, Clock } from 'lucide-react'
+import { Shield, Truck, Users, Heart, Award, Clock } from 'lucide-react'
+import { FlameIcon as Grill } from 'lucide-react'
 
 export default function HomePage() {
   return (
